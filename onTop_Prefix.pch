@@ -1,0 +1,12 @@
+//
+// Prefix header for all source files of the 'onTop' target in the 'onTop' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+    #import <QuartzCore/QuartzCore.h>
+
+	#import "Beacon.h"
+	#import "RolloBuddy.h"
+#endif
